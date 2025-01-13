@@ -49,6 +49,12 @@ li{
   cursor: pointer;
 
 }
+.not-found{
+  text-align: center;
+  font-size: 30px;
+  color: darkred;
+  
+}
 
 form {
   display: flex;
