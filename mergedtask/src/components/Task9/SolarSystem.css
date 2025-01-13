@@ -1,0 +1,87 @@
+body {
+  background-image: url("https://media.istockphoto.com/id/482954331/photo/solar-system.webp?a=1&b=1&s=612x612&w=0&k=20&c=lQdw2TSg-H1CFgq0Dix8UvTeNDPfDmLKULMoK_aa43I=");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  /* -webkit-backdrop-filter: blur(5px); */
+
+  backdrop-filter: blur(2px);
+}
+.solar-system {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.solar-system h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #00ffff;
+}
+
+.planet-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.planet {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.planet:hover {
+  transform: scale(1.1);
+}
+
+.planet-1 {
+  background-color: #8a8a8a;
+}
+.planet-2 {
+  background-color: #e6e6e6;
+}
+.planet-3 {
+  background-color: #4ca64c;
+}
+.planet-4 {
+  background-color: #ff6666;
+}
+.planet-5 {
+  background-color: #ffa500;
+}
+.planet-6 {
+  background-color: #f0e68c;
+}
+.planet-7 {
+  background-color: #add8e6;
+}
+.planet-8 {
+  background-color: #4169e1;
+}
+
+.planet-info {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.planet-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #00ffff;
+  font-weight: bold;
+}
+
+.planet-info p {
+  font-size: 20px;
+  color: white;
+  font-style: italic;
+}

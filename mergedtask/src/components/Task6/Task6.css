@@ -1,0 +1,120 @@
+/* General Styling for Task 6 Components */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #444;
+  text-align: center;
+  font-weight: bold;
+}
+.count {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 6rem;
+  /* align-items: center; */
+}
+
+button.secondary {
+  background-color: #09c45d;
+}
+button.secondary:hover {
+  background-color: #218838;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+button.danger {
+  background-color: #dc3545;
+
+  font-family: tahoma;
+  margin-top: 5px;
+  margin-right: 19px;
+  position: absolute;
+  right: 0;
+}
+
+button.danger:hover {
+  background-color: #c82333;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Todo List */
+ul.a {
+  list-style-type: square;
+}
+
+li {
+  padding: 10px;
+  margin: 15px 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 2rem;
+  list-style-type: square;
+}
+
+li span.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+li button {
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+/* Theme Toggle */
+.theme-container {
+  padding: 20px;
+  text-align: center;
+  background-color: var(--bg-color, #fff);
+  color: var(--text-color, #000);
+  transition: all 0.3s ease-in-out;
+}
+.theme {
+  display: flex;
+  justify-content: center;
+  /* gap: 10px; */
+  margin-top: 10rem;
+  /* margin-left: 49.5rem; */
+  /* display: flex; */
+  align-items: center;
+}
+button.theme {
+  background-color: #09c45d;
+  display: block;
+  margin: auto;
+}

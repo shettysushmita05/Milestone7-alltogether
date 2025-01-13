@@ -1,0 +1,28 @@
+.dashboard {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+
+.dashboard p {
+  margin-bottom: 1rem;
+}
+
+.dashboard ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.dashboard li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
