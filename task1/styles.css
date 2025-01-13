@@ -1,0 +1,81 @@
+/* Add these styles to the existing CSS */
+
+.form-group{
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 0.5rem;
+    padding-left: 15px;
+
+}
+#key, #value{
+
+    width: 200px;
+    height: 2rem;
+
+}
+.form-label{
+    margin-left: 10px; 
+}
+
+.button-group{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 3rem;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+#addButton{
+    width: 5rem;
+    background-color: green;
+
+}
+#retrieveButton{
+width: 5rem;
+    background-color: blue;
+}
+#deleteButton{
+width: 5rem;
+    background-color: red;
+
+}
+#message{
+    
+    font-weight: bold;
+    
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f0f0f0;
+    height: 5rem;
+    width: 5rem;
+  }
+  
+  td button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  td button:hover {
+    background-color: #cc0000;
+  }
+  
