@@ -12,7 +12,16 @@ const Counter = () => {
       <h1 className="count">Counter: {count}</h1>
       <div className="counter-buttons">
         <button onClick={() => dispatch(increment())}>Increment</button>
-        <button onClick={() => dispatch(decrement())}>Decrement</button>
+        <button
+          onClick={() => {
+            if (count > 0) {
+              dispatch(decrement());
+            }
+          }}
+          disabled={count === 0} // Disable button if count is 0
+        >
+          Decrement
+        </button>
         <button onClick={() => dispatch(reset())}>Reset</button>
       </div>
     </div>

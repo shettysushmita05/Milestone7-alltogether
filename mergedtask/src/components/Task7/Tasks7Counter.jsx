@@ -10,7 +10,12 @@ const Task7Counter = () => {
       <h2>Counter</h2>
       <p>Current Count: {count}</p>
       <button onClick={() => setCount(count + 1)}>Increase</button>
-      <button onClick={() => setCount(count - 1)}>Decrease</button>
+      <button onClick={() =>{ if (count > 0) { setCount(count - 1) ; } }} disabled={count === 0} >Decrease</button>
+      
+      {/* <button onClick={() => setCount(count - 1)}>Decrease</button> */}
+
+
+
     </div>
   );
 };
